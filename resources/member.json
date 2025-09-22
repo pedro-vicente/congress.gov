@@ -1,0 +1,62 @@
+{
+    "members": [
+        {
+            "bioguideId": "Y000064",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/y000064_200.jpg"
+            },
+            "name": "Young, Todd",
+            "partyName": "Republican",
+            "state": "Indiana",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2017,
+                        "startYear": 2011
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2017
+                    }
+                ]
+            },
+            "updateDate": "2025-09-20T10:30:32Z",
+            "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+        },
+        {
+            "bioguideId": "W000779",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/w000779_200.jpg"
+            },
+            "name": "Wyden, Ron",
+            "partyName": "Democratic",
+            "state": "Oregon",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1996,
+                        "startYear": 1981
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 1996
+                    }
+                ]
+            },
+            "updateDate": "2025-09-20T10:30:32Z",
+            "url": "https://api.congress.gov/v3/member/W000779?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 2598,
+        "next": "https://api.congress.gov/v3/member?offset=2&limit=2&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

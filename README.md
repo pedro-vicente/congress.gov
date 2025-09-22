@@ -70,7 +70,6 @@ Host: api.congress.gov
 Accept: */*
 Connection: close
 ```
-
 ## Example JSON response
 
 ```
@@ -113,3 +112,27 @@ Connection: close
 }
 
 ```
+
+
+# Web interface 
+
+The web interface display retrieved data on a web browser. It uses the Wt framework
+
+[Wt](https://www.webtoolkit.eu/wt) is a C++ library for developing web applications. 
+
+## Usage 
+
+Build dependencies Boost and Wt on a bash shell (Linux, Mac, Windows) with
+
+```bash
+./build.boost.sh 
+./build.wt.sh 
+```
+
+Build with
+
+```bash
+./build.cmake.sh 
+```
+
+Access the web interface at `http://localhost:8080`
