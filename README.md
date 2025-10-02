@@ -156,5 +156,5 @@ Access the web interface at `http://localhost:8080`
 
 http://nostro.cloud:7003/
 
-![image](https://github.com/user-attachments/assets/15eca9bd-fc13-4c72-9b91-56f57a57a1ec)
+![image](https://github.com/user-attachments/assets/c086d370-fc9e-4993-80f4-4e579e1d81d4)
 
