@@ -28,20 +28,20 @@ int main()
 
   std::stringstream buf;
   buf << file.rdbuf();
-  std::string content = buf.str();
+  std::string json_buf = buf.str();
   file.close();
 
-  std::string key = extract_value(content, "API_KEY");
-  std::string format = extract_value(content, "RESPONSE_FORMAT");
-  int limit = std::stoi(extract_value(content, "LIMIT"));
+  std::string key = extract_value(json_buf, "API_KEY");
+  std::string format = extract_value(json_buf, "RESPONSE_FORMAT");
+  int limit = std::stoi(extract_value(json_buf, "LIMIT"));
 
   std::cout << "API_KEY: " << key << std::endl;
   std::cout << "RESPONSE_FORMAT: " << format << std::endl;
 
   int congress = 118;
   std::string billType = "hr";
-  Bill params(key, format, congress, billType, limit);
-  if (get_bill(params) < 0)
+  BillRequest request(key, format, congress, billType, limit);
+  if (get_bill(request) < 0)
   {
     return -1;
   }

@@ -1,0 +1,314 @@
+{
+    "bills": [
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-06",
+                "text": "Became Public Law No: 118-274."
+            },
+            "number": "4984",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "D.C. Robert F. Kennedy Memorial Stadium Campus Revitalization Act",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/4984?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-05",
+                "text": "Became Public Law No: 118-273."
+            },
+            "number": "82",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Social Security Fairness Act of 2023",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/82?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-269."
+            },
+            "number": "9775",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 119 North Anderson Street in Elwood, Indiana, as the \"Officer Noah Jacob Shahnavaz Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9775?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-268."
+            },
+            "number": "9600",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 119 Main Street in Plains, Georgia, as the \"Jimmy and Rosalynn Carter Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-10-01",
+            "updateDateIncludingText": "2025-10-01",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9600?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-267."
+            },
+            "number": "9592",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Federal Register Modernization Act of 2024",
+            "type": "HR",
+            "updateDate": "2025-07-28",
+            "updateDateIncludingText": "2025-07-28",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9592?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-266."
+            },
+            "number": "9580",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 2777 Brentwood Road in Raleigh, North Carolina, as the \"Millie Dunn Veasey Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9580?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-265."
+            },
+            "number": "9549",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 125 South 1st Avenue in Hillsboro, Oregon, as the \"Elizabeth Furse Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-10-01",
+            "updateDateIncludingText": "2025-10-01",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9549?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-264."
+            },
+            "number": "9544",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 340 South Loudon Avenue in Baltimore, Maryland, as the \"United States Representative Elijah E. Cummings Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-10-01",
+            "updateDateIncludingText": "2025-10-01",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9544?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-263."
+            },
+            "number": "9487",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "House Office of Legislative Counsel Modernization Act",
+            "type": "HR",
+            "updateDate": "2025-07-28",
+            "updateDateIncludingText": "2025-07-28",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9487?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-262."
+            },
+            "number": "9421",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 108 North Main Street in Bucoda, Washington, as the \"Mayor Rob Gordon Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9421?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-261."
+            },
+            "number": "9322",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 675 Wolf Ledges Parkway in Akron, Ohio, as the \"Judge James R. Williams Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9322?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-260."
+            },
+            "number": "9285",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 3913 Leland Avenue Northwest in Comstock Park, Michigan, as the \"Captain Miguel Justin Nava Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9285?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-259."
+            },
+            "number": "9124",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Auburn, California, as the \"Louis A. Conter VA Clinic\".",
+            "type": "HR",
+            "updateDate": "2025-01-14",
+            "updateDateIncludingText": "2025-01-14",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9124?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-258."
+            },
+            "number": "9076",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Supporting America’s Children and Families Act",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/9076?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-257."
+            },
+            "number": "8976",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 20 West White Street in Millstadt, Illinois, as the \"Corporal Matthew A. Wyatt Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/8976?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-256."
+            },
+            "number": "8919",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 151 Highway 74 South in Peachtree City, Georgia, as the \"SFC Shawn McCloskey Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/8919?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-255."
+            },
+            "number": "8909",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 82-6110 Mamalahoa Highway in Captain Cook, Hawaii, as the \"Army 1st Lt. John Kuulei Kauhaihao Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/8909?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-254."
+            },
+            "number": "8868",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 609 Portsmouth Avenue in Greenland, New Hampshire, as the \"Chief Michael Maloney Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/8868?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-253."
+            },
+            "number": "8841",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 114 Center Street East in Roseau, Minnesota, as the \"Floyd B. Olson Post Office\".",
+            "type": "HR",
+            "updateDate": "2025-10-01",
+            "updateDateIncludingText": "2025-10-01",
+            "url": "https://api.congress.gov/v3/bill/118/hr/8841?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2025-01-04",
+                "text": "Became Public Law No: 118-252."
+            },
+            "number": "8717",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To designate the facility of the United States Postal Service located at 20 West Main Street in Santaquin, Utah, as the \"SGT Bill Hooser Post Office Building\".",
+            "type": "HR",
+            "updateDate": "2025-05-27",
+            "updateDateIncludingText": "2025-05-27",
+            "url": "https://api.congress.gov/v3/bill/118/hr/8717?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 10564,
+        "next": "https://api.congress.gov/v3/bill/118/hr?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "billType": "hr",
+        "congress": "118",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
