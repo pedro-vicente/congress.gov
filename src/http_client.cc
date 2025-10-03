@@ -26,14 +26,14 @@ int main()
     return -1;
   }
 
-  std::stringstream buf;
-  buf << file.rdbuf();
-  std::string json_buf = buf.str();
+  std::stringstream ss;
+  ss << file.rdbuf();
+  std::string buf = ss.str();
   file.close();
 
-  std::string key = extract_value(json_buf, "API_KEY");
-  std::string format = extract_value(json_buf, "RESPONSE_FORMAT");
-  int limit = std::stoi(extract_value(json_buf, "LIMIT"));
+  std::string key = extract_value(buf, "API_KEY");
+  std::string format = extract_value(buf, "RESPONSE_FORMAT");
+  int limit = std::stoi(extract_value(buf, "LIMIT"));
 
   std::cout << "API_KEY: " << key << std::endl;
   std::cout << "RESPONSE_FORMAT: " << format << std::endl;
