@@ -32,5 +32,15 @@ cmake ../.. --fresh \
     -DBOOST_LIB_DIRS="$path_boost/lib"
 cmake --build . --config Debug --verbose
 
+echo "open browser http://localhost:8080"
+if [[ "$OSTYPE" == "msys"* ]]; then
+./Debug/web --http-address=0.0.0.0 --http-port=8080  --docroot=.
+else
+./web --http-address=0.0.0.0 --http-port=8080  --docroot=.
+fi
+
 popd
 popd
+
+
+exit
