@@ -1,10 +1,14 @@
 #!/bin/bash
+#!/bin/bash
 set -e
 path_wt="$(pwd)/install/wt"
-path_boost="$(pwd)/build/boost_1_88_0"
 echo "Wt at: $path_wt"
-echo "Boost at: $path_boost"
-sleep 1
+
+if [[ "$OSTYPE" == "msys"* ]]; then
+    path_boost="$(pwd)/build/boost_1_88_0"
+    echo "Boost at: $path_boost"
+fi
+
 
 # check if ext/asio directory exists, if not clone it
 if [ ! -d "ext/asio-1.30.2" ]; then
@@ -26,10 +30,16 @@ mkdir -p build/congress
 pushd build
 pushd congress
 
-cmake ../.. --fresh \
-    -DWT_INCLUDE="$path_wt/include" \
-    -DBOOST_INCLUDE_DIR="$path_boost/include/boost-1_88" \
-    -DBOOST_LIB_DIRS="$path_boost/lib"
+if [[ "$OSTYPE" == "msys"* ]]; then
+    cmake ../.. --fresh \
+        -DWT_INCLUDE="$path_wt/include" \
+        -DBOOST_INCLUDE_DIR="$path_boost/include/boost-1_88" \
+        -DBOOST_LIB_DIRS="$path_boost/lib"
+else
+    cmake ../.. --fresh \
+        -DWT_INCLUDE="$path_wt/include"
+fi
+
 cmake --build . --config Debug --verbose
 
 echo "open browser http://localhost:8080"
