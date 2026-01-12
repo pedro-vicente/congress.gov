@@ -4,6 +4,14 @@ A C++ application that fetches data from the Congress API using HTTPS.
 
 https://gpo.congress.gov/
 
+
+## Live demo 
+
+https://pedro-vicente.net:9445/
+
+![image](https://github.com/user-attachments/assets/c086d370-fc9e-4993-80f4-4e579e1d81d4)
+
+
 ## Prerequisites
 
 This project requires CMake, a C++ compiler, OpenSSL, and the ASIO library.
@@ -151,10 +159,4 @@ On a bash shell
 ```
 
 Access the web interface at `http://localhost:8080`
-
-## Live demo 
-
-http://nostro.cloud:7003/
-
-![image](https://github.com/user-attachments/assets/c086d370-fc9e-4993-80f4-4e579e1d81d4)
 
