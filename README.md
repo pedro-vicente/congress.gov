@@ -4,10 +4,14 @@ A C++ application that fetches data from the Congress API using HTTPS.
 
 https://gpo.congress.gov/
 
+Build: Visual Studio 2026, CMake ≥ 4.2 (Windows), Boost 1.92.0, Wt 4.15.0 and OpenSSL. See [WT.REPORT.md](WT.REPORT.md) for details.
+
+Note: config.json ships with the placeholder `MY_API_KEY`. Replace it with your own api.congress.gov key.
+
 
 ## Live demo 
 
-https://pedro-vicente.net:9445/
+https://pedro-vicente.net/congress/
 
 ![image](https://github.com/user-attachments/assets/c086d370-fc9e-4993-80f4-4e579e1d81d4)
 
